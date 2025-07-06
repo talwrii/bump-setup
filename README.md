@@ -4,7 +4,7 @@
 
 A command-line tool to bump the version in place a `setup.py`  bumping major, minor, or patch versions.
 
-## Notivation
+## Motivaiton
 I got bored of bumping versions but hand so made this tool.
 
 ## Alternatives and prior work
