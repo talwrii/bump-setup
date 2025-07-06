@@ -9,6 +9,7 @@ setup(
     author_email="talwrii@googlemail.com.com",
     url="https://github.com/talwrii/bump-setup",
     packages=["bump_setup"],
+    install_requires=["toml"],
     entry_points={
         "console_scripts": [
             "bump-setup=bump_setup.main:main",
