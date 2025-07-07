@@ -172,7 +172,10 @@ def bump_version(file_path, version_type):
 
 def main():
     # Set up argparse to handle command-line arguments
-    parser = argparse.ArgumentParser(description="Bump version in setup.py or pyproject.toml")
+    parser = argparse.ArgumentParser(
+        description="Bump version in setup.py or pyproject.toml"
+        epilog="@readwithai 📖 https://readwithai.substack.com/ ⚡️ machine-aided reading ✒️"
+    )
     parser.add_argument(
         "version_type",
         choices=["major", "minor", "patch"],
