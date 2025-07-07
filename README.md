@@ -4,13 +4,13 @@
 
 A command-line tool to bump the version in-place in `setup.py` or `pyproject.yaml` for python projects. It can bump major, minor or patch versions.
 
-Most of the value for this is dealing with `setup.py`. If you only use `pyproject.yaml` exclusively I might recommend creating your own script since this is a very straight forward task, but this code works.
+Most of the value for this is dealing with `setup.py`. If you only use `pyproject.yaml` exclusively I might recommend creating your own script since this is a very straight forward task, but this code works for this basic case.
 
 ## Motivaiton
-I got bored of bumping versions but hand so made this tool.
+I got bored of bumping version numbers by hand in files and `bumpversion` didn't immediately do what I wanted so I made this tool.
 
 ## Alternatives and prior work
-There is a tool called [bumpversion](https://github.com/peritus/bumpversion) which is quite similar but wants to take the files that get modified and also seems to want you to specify the file.
+There is a tool called [bumpversion](https://github.com/peritus/bumpversion) which is quite similar but wants to take the files that get modified and also seems to want you to specify the file. [bumpver](https://github.com/mbarkhau/bumpver) also does something similar to this - and greps through your codebase but the documentation is more than a couple of lines and it seems to require you to maintain separate settings in `pyproject.toml`  - this is meant to 'just work' most of th time.
 
 
 ## Installation
