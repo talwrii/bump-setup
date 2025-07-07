@@ -4,6 +4,8 @@
 
 A command-line tool to bump the version in-place in `setup.py` or `pyproject.yaml` for python projects. It can bump major, minor or patch versions.
 
+Most of the value for this is dealing with `setup.py`. If you only use `pyproject.yaml` exclusively I might recommend creating your own script since this is a very straight forward task, but this code works.
+
 ## Motivaiton
 I got bored of bumping versions but hand so made this tool.
 
